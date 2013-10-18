@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2AC22A1D-9ACF-4A9C-9350-42F40167AA5C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Brake</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BCC875F4-E25B-45CF-AEF2-D514AE70A66C</key>
+		<string>https://github.com/KJCracks/Brake-for-Mac.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Brake.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>42D7509B-D2F9-4A48-AE0F-619111ABC3A7</key>
+		<string>../../Brake/MASPreferences</string>
+		<key>BCC875F4-E25B-45CF-AEF2-D514AE70A66C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KJCracks/Brake-for-Mac.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BCC875F4-E25B-45CF-AEF2-D514AE70A66C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BCC875F4-E25B-45CF-AEF2-D514AE70A66C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Brake-for-Mac</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>42D7509B-D2F9-4A48-AE0F-619111ABC3A7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MASPreferences</string>
+		</dict>
+	</array>
+</dict>
+</plist>

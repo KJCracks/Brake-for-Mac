@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC0119BD18103CF0000F8286 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0119BC18103CF0000F8286 /* Cocoa.framework */; };
+		BC0119C718103CF0000F8286 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC0119C518103CF0000F8286 /* InfoPlist.strings */; };
+		BC0119C918103CF0000F8286 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0119C818103CF0000F8286 /* main.m */; };
+		BC0119CD18103CF0000F8286 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BC0119CB18103CF0000F8286 /* Credits.rtf */; };
+		BC0119D018103CF0000F8286 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0119CF18103CF0000F8286 /* AppDelegate.m */; };
+		BC0119D318103CF0000F8286 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0119D118103CF0000F8286 /* MainMenu.xib */; };
+		BC0119D518103CF0000F8286 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0119D418103CF0000F8286 /* Images.xcassets */; };
+		BC0119DC18103CF0000F8286 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0119DB18103CF0000F8286 /* XCTest.framework */; };
+		BC0119DD18103CF0000F8286 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0119BC18103CF0000F8286 /* Cocoa.framework */; };
+		BC0119E518103CF0000F8286 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC0119E318103CF0000F8286 /* InfoPlist.strings */; };
+		BC0119E718103CF0000F8286 /* BrakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0119E618103CF0000F8286 /* BrakeTests.m */; };
+		BC011A17181043AF000F8286 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC011A15181043AF000F8286 /* MasterViewController.m */; };
+		BC011A18181043AF000F8286 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC011A16181043AF000F8286 /* MasterViewController.xib */; };
+		BC011A1B181045BD000F8286 /* AppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC011A1A181045BD000F8286 /* AppModel.m */; };
+		BC011A1E18104A49000F8286 /* AppDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = BC011A1D18104A49000F8286 /* AppDoc.m */; };
+		BC011A2018104DC0000F8286 /* Angry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC011A1F18104DC0000F8286 /* Angry.jpg */; };
+		BC011ACA1810784A000F8286 /* libssh2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC011AC91810784A000F8286 /* libssh2.a */; };
+		BC011AD61810789F000F8286 /* DFSSHConnectionType.m in Sources */ = {isa = PBXBuildFile; fileRef = BC011AD21810789F000F8286 /* DFSSHConnectionType.m */; };
+		BC011AD71810789F000F8286 /* DFSSHConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = BC011AD31810789F000F8286 /* DFSSHConnector.m */; };
+		BC011AD81810789F000F8286 /* DFSSHOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC011AD41810789F000F8286 /* DFSSHOperator.m */; };
+		BC011AD91810789F000F8286 /* DFSSHServer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC011AD51810789F000F8286 /* DFSSHServer.m */; };
+		BC011ADB18107A4A000F8286 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BC011ADA18107A4A000F8286 /* libcrypto.dylib */; };
+		BC011ADD18107A50000F8286 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BC011ADC18107A50000F8286 /* libz.dylib */; };
+		BC011AE318107B87000F8286 /* DeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC011AE218107B87000F8286 /* DeviceManager.m */; };
+		BC011AEC18109A4D000F8286 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BC011AE618109A4D000F8286 /* .gitignore */; };
+		BC011AED18109A4D000F8286 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC011AE818109A4D000F8286 /* MASPreferencesWindow.xib */; };
+		BC011AEE18109A4D000F8286 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC011AEA18109A4D000F8286 /* MASPreferencesWindowController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BC011AEF18109A4D000F8286 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BC011AEB18109A4D000F8286 /* README.md */; };
+		BC011AF318109AF6000F8286 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC011AF118109AF6000F8286 /* GeneralPreferencesViewController.m */; };
+		BC011AF418109AF6000F8286 /* GeneralPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC011AF218109AF6000F8286 /* GeneralPreferencesViewController.xib */; };
+		BC011AF518109D8E000F8286 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0119BF18103CF0000F8286 /* AppKit.framework */; };
+		BC011AFB1810B5E5000F8286 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC011AFA1810B5E5000F8286 /* AppManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC0119DE18103CF0000F8286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC0119B118103CF0000F8286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC0119B818103CF0000F8286;
+			remoteInfo = Brake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC0119B918103CF0000F8286 /* Brake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0119BC18103CF0000F8286 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BC0119BF18103CF0000F8286 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BC0119C018103CF0000F8286 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BC0119C118103CF0000F8286 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC0119C418103CF0000F8286 /* Brake-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brake-Info.plist"; sourceTree = "<group>"; };
+		BC0119C618103CF0000F8286 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC0119C818103CF0000F8286 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC0119CA18103CF0000F8286 /* Brake-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brake-Prefix.pch"; sourceTree = "<group>"; };
+		BC0119CC18103CF0000F8286 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BC0119CE18103CF0000F8286 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC0119CF18103CF0000F8286 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC0119D218103CF0000F8286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BC0119D418103CF0000F8286 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC0119DA18103CF0000F8286 /* BrakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0119DB18103CF0000F8286 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC0119E218103CF0000F8286 /* BrakeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrakeTests-Info.plist"; sourceTree = "<group>"; };
+		BC0119E418103CF0000F8286 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC0119E618103CF0000F8286 /* BrakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrakeTests.m; sourceTree = "<group>"; };
+		BC011A14181043AF000F8286 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		BC011A15181043AF000F8286 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		BC011A16181043AF000F8286 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		BC011A19181045BD000F8286 /* AppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppModel.h; sourceTree = "<group>"; };
+		BC011A1A181045BD000F8286 /* AppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppModel.m; sourceTree = "<group>"; };
+		BC011A1C18104A49000F8286 /* AppDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDoc.h; sourceTree = "<group>"; };
+		BC011A1D18104A49000F8286 /* AppDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDoc.m; sourceTree = "<group>"; };
+		BC011A1F18104DC0000F8286 /* Angry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Angry.jpg; sourceTree = "<group>"; };
+		BC011AB71810784A000F8286 /* channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = channel.h; sourceTree = "<group>"; };
+		BC011AB81810784A000F8286 /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		BC011AB91810784A000F8286 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		BC011ABA1810784A000F8286 /* libgcrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libgcrypt.h; sourceTree = "<group>"; };
+		BC011ABB1810784A000F8286 /* libssh2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libssh2.h; sourceTree = "<group>"; };
+		BC011ABC1810784A000F8286 /* libssh2_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libssh2_config.h; sourceTree = "<group>"; };
+		BC011ABD1810784A000F8286 /* libssh2_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libssh2_priv.h; sourceTree = "<group>"; };
+		BC011ABE1810784A000F8286 /* libssh2_publickey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libssh2_publickey.h; sourceTree = "<group>"; };
+		BC011ABF1810784A000F8286 /* libssh2_sftp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libssh2_sftp.h; sourceTree = "<group>"; };
+		BC011AC01810784A000F8286 /* mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mac.h; sourceTree = "<group>"; };
+		BC011AC11810784A000F8286 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		BC011AC21810784A000F8286 /* openssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openssl.h; sourceTree = "<group>"; };
+		BC011AC31810784A000F8286 /* packet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = packet.h; sourceTree = "<group>"; };
+		BC011AC41810784A000F8286 /* session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = session.h; sourceTree = "<group>"; };
+		BC011AC51810784A000F8286 /* sftp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sftp.h; sourceTree = "<group>"; };
+		BC011AC61810784A000F8286 /* transport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transport.h; sourceTree = "<group>"; };
+		BC011AC71810784A000F8286 /* userauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userauth.h; sourceTree = "<group>"; };
+		BC011AC91810784A000F8286 /* libssh2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssh2.a; sourceTree = "<group>"; };
+		BC011ACD1810789F000F8286 /* DFSSHConnectionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFSSHConnectionType.h; sourceTree = "<group>"; };
+		BC011ACE1810789F000F8286 /* DFSSHConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFSSHConnector.h; sourceTree = "<group>"; };
+		BC011ACF1810789F000F8286 /* DFSSHOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFSSHOperator.h; sourceTree = "<group>"; };
+		BC011AD01810789F000F8286 /* DFSSHServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFSSHServer.h; sourceTree = "<group>"; };
+		BC011AD21810789F000F8286 /* DFSSHConnectionType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFSSHConnectionType.m; sourceTree = "<group>"; };
+		BC011AD31810789F000F8286 /* DFSSHConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFSSHConnector.m; sourceTree = "<group>"; };
+		BC011AD41810789F000F8286 /* DFSSHOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFSSHOperator.m; sourceTree = "<group>"; };
+		BC011AD51810789F000F8286 /* DFSSHServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFSSHServer.m; sourceTree = "<group>"; };
+		BC011ADA18107A4A000F8286 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		BC011ADC18107A50000F8286 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BC011AE118107B87000F8286 /* DeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceManager.h; sourceTree = "<group>"; };
+		BC011AE218107B87000F8286 /* DeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceManager.m; sourceTree = "<group>"; };
+		BC011AE618109A4D000F8286 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BC011AE718109A4D000F8286 /* MASPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesViewController.h; sourceTree = "<group>"; };
+		BC011AE818109A4D000F8286 /* MASPreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MASPreferencesWindow.xib; sourceTree = "<group>"; };
+		BC011AE918109A4D000F8286 /* MASPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesWindowController.h; sourceTree = "<group>"; };
+		BC011AEA18109A4D000F8286 /* MASPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASPreferencesWindowController.m; sourceTree = "<group>"; };
+		BC011AEB18109A4D000F8286 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		BC011AF018109AF6000F8286 /* GeneralPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralPreferencesViewController.h; sourceTree = "<group>"; };
+		BC011AF118109AF6000F8286 /* GeneralPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralPreferencesViewController.m; sourceTree = "<group>"; };
+		BC011AF218109AF6000F8286 /* GeneralPreferencesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralPreferencesViewController.xib; sourceTree = "<group>"; };
+		BC011AF91810B5E5000F8286 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		BC011AFA1810B5E5000F8286 /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC0119B618103CF0000F8286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC011AF518109D8E000F8286 /* AppKit.framework in Frameworks */,
+				BC011ADD18107A50000F8286 /* libz.dylib in Frameworks */,
+				BC011ADB18107A4A000F8286 /* libcrypto.dylib in Frameworks */,
+				BC0119BD18103CF0000F8286 /* Cocoa.framework in Frameworks */,
+				BC011ACA1810784A000F8286 /* libssh2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0119D718103CF0000F8286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0119DD18103CF0000F8286 /* Cocoa.framework in Frameworks */,
+				BC0119DC18103CF0000F8286 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC0119B018103CF0000F8286 = {
+			isa = PBXGroup;
+			children = (
+				BC0119C218103CF0000F8286 /* Brake */,
+				BC0119E018103CF0000F8286 /* BrakeTests */,
+				BC0119BB18103CF0000F8286 /* Frameworks */,
+				BC0119BA18103CF0000F8286 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0119BA18103CF0000F8286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC0119B918103CF0000F8286 /* Brake.app */,
+				BC0119DA18103CF0000F8286 /* BrakeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC0119BB18103CF0000F8286 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC011ADC18107A50000F8286 /* libz.dylib */,
+				BC011ADA18107A4A000F8286 /* libcrypto.dylib */,
+				BC0119BC18103CF0000F8286 /* Cocoa.framework */,
+				BC0119DB18103CF0000F8286 /* XCTest.framework */,
+				BC0119BE18103CF0000F8286 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC0119BE18103CF0000F8286 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC0119BF18103CF0000F8286 /* AppKit.framework */,
+				BC0119C018103CF0000F8286 /* CoreData.framework */,
+				BC0119C118103CF0000F8286 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BC0119C218103CF0000F8286 /* Brake */ = {
+			isa = PBXGroup;
+			children = (
+				BC011AE518109A4D000F8286 /* MASPreferences */,
+				BC011ACB1810789F000F8286 /* DFSSHWrapper */,
+				BC011AB518107842000F8286 /* libssh2 */,
+				BC011A1F18104DC0000F8286 /* Angry.jpg */,
+				BC0119CE18103CF0000F8286 /* AppDelegate.h */,
+				BC0119CF18103CF0000F8286 /* AppDelegate.m */,
+				BC0119D118103CF0000F8286 /* MainMenu.xib */,
+				BC0119D418103CF0000F8286 /* Images.xcassets */,
+				BC0119C318103CF0000F8286 /* Supporting Files */,
+				BC011A14181043AF000F8286 /* MasterViewController.h */,
+				BC011A15181043AF000F8286 /* MasterViewController.m */,
+				BC011A16181043AF000F8286 /* MasterViewController.xib */,
+				BC011A19181045BD000F8286 /* AppModel.h */,
+				BC011A1A181045BD000F8286 /* AppModel.m */,
+				BC011A1C18104A49000F8286 /* AppDoc.h */,
+				BC011A1D18104A49000F8286 /* AppDoc.m */,
+				BC011AE118107B87000F8286 /* DeviceManager.h */,
+				BC011AE218107B87000F8286 /* DeviceManager.m */,
+				BC011AF018109AF6000F8286 /* GeneralPreferencesViewController.h */,
+				BC011AF118109AF6000F8286 /* GeneralPreferencesViewController.m */,
+				BC011AF218109AF6000F8286 /* GeneralPreferencesViewController.xib */,
+				BC011AF91810B5E5000F8286 /* AppManager.h */,
+				BC011AFA1810B5E5000F8286 /* AppManager.m */,
+			);
+			path = Brake;
+			sourceTree = "<group>";
+		};
+		BC0119C318103CF0000F8286 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC0119C418103CF0000F8286 /* Brake-Info.plist */,
+				BC0119C518103CF0000F8286 /* InfoPlist.strings */,
+				BC0119C818103CF0000F8286 /* main.m */,
+				BC0119CA18103CF0000F8286 /* Brake-Prefix.pch */,
+				BC0119CB18103CF0000F8286 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC0119E018103CF0000F8286 /* BrakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC0119E618103CF0000F8286 /* BrakeTests.m */,
+				BC0119E118103CF0000F8286 /* Supporting Files */,
+			);
+			path = BrakeTests;
+			sourceTree = "<group>";
+		};
+		BC0119E118103CF0000F8286 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC0119E218103CF0000F8286 /* BrakeTests-Info.plist */,
+				BC0119E318103CF0000F8286 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC011AB518107842000F8286 /* libssh2 */ = {
+			isa = PBXGroup;
+			children = (
+				BC011AB61810784A000F8286 /* include */,
+				BC011AC81810784A000F8286 /* lib */,
+			);
+			name = libssh2;
+			sourceTree = "<group>";
+		};
+		BC011AB61810784A000F8286 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BC011AB71810784A000F8286 /* channel.h */,
+				BC011AB81810784A000F8286 /* comp.h */,
+				BC011AB91810784A000F8286 /* crypto.h */,
+				BC011ABA1810784A000F8286 /* libgcrypt.h */,
+				BC011ABB1810784A000F8286 /* libssh2.h */,
+				BC011ABC1810784A000F8286 /* libssh2_config.h */,
+				BC011ABD1810784A000F8286 /* libssh2_priv.h */,
+				BC011ABE1810784A000F8286 /* libssh2_publickey.h */,
+				BC011ABF1810784A000F8286 /* libssh2_sftp.h */,
+				BC011AC01810784A000F8286 /* mac.h */,
+				BC011AC11810784A000F8286 /* misc.h */,
+				BC011AC21810784A000F8286 /* openssl.h */,
+				BC011AC31810784A000F8286 /* packet.h */,
+				BC011AC41810784A000F8286 /* session.h */,
+				BC011AC51810784A000F8286 /* sftp.h */,
+				BC011AC61810784A000F8286 /* transport.h */,
+				BC011AC71810784A000F8286 /* userauth.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		BC011AC81810784A000F8286 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				BC011AC91810784A000F8286 /* libssh2.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		BC011ACB1810789F000F8286 /* DFSSHWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				BC011ACC1810789F000F8286 /* headers */,
+				BC011AD11810789F000F8286 /* source */,
+			);
+			path = DFSSHWrapper;
+			sourceTree = "<group>";
+		};
+		BC011ACC1810789F000F8286 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				BC011ACD1810789F000F8286 /* DFSSHConnectionType.h */,
+				BC011ACE1810789F000F8286 /* DFSSHConnector.h */,
+				BC011ACF1810789F000F8286 /* DFSSHOperator.h */,
+				BC011AD01810789F000F8286 /* DFSSHServer.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		BC011AD11810789F000F8286 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				BC011AD21810789F000F8286 /* DFSSHConnectionType.m */,
+				BC011AD31810789F000F8286 /* DFSSHConnector.m */,
+				BC011AD41810789F000F8286 /* DFSSHOperator.m */,
+				BC011AD51810789F000F8286 /* DFSSHServer.m */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		BC011AE518109A4D000F8286 /* MASPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				BC011AE618109A4D000F8286 /* .gitignore */,
+				BC011AE718109A4D000F8286 /* MASPreferencesViewController.h */,
+				BC011AE818109A4D000F8286 /* MASPreferencesWindow.xib */,
+				BC011AE918109A4D000F8286 /* MASPreferencesWindowController.h */,
+				BC011AEA18109A4D000F8286 /* MASPreferencesWindowController.m */,
+				BC011AEB18109A4D000F8286 /* README.md */,
+			);
+			path = MASPreferences;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC0119B818103CF0000F8286 /* Brake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0119EA18103CF0000F8286 /* Build configuration list for PBXNativeTarget "Brake" */;
+			buildPhases = (
+				BC0119B518103CF0000F8286 /* Sources */,
+				BC0119B618103CF0000F8286 /* Frameworks */,
+				BC0119B718103CF0000F8286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brake;
+			productName = Brake;
+			productReference = BC0119B918103CF0000F8286 /* Brake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC0119D918103CF0000F8286 /* BrakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0119ED18103CF0000F8286 /* Build configuration list for PBXNativeTarget "BrakeTests" */;
+			buildPhases = (
+				BC0119D618103CF0000F8286 /* Sources */,
+				BC0119D718103CF0000F8286 /* Frameworks */,
+				BC0119D818103CF0000F8286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC0119DF18103CF0000F8286 /* PBXTargetDependency */,
+			);
+			name = BrakeTests;
+			productName = BrakeTests;
+			productReference = BC0119DA18103CF0000F8286 /* BrakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC0119B118103CF0000F8286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Dybero;
+				TargetAttributes = {
+					BC0119D918103CF0000F8286 = {
+						TestTargetID = BC0119B818103CF0000F8286;
+					};
+				};
+			};
+			buildConfigurationList = BC0119B418103CF0000F8286 /* Build configuration list for PBXProject "Brake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC0119B018103CF0000F8286;
+			productRefGroup = BC0119BA18103CF0000F8286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC0119B818103CF0000F8286 /* Brake */,
+				BC0119D918103CF0000F8286 /* BrakeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC0119B718103CF0000F8286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0119C718103CF0000F8286 /* InfoPlist.strings in Resources */,
+				BC011AEC18109A4D000F8286 /* .gitignore in Resources */,
+				BC0119D518103CF0000F8286 /* Images.xcassets in Resources */,
+				BC011A18181043AF000F8286 /* MasterViewController.xib in Resources */,
+				BC011AF418109AF6000F8286 /* GeneralPreferencesViewController.xib in Resources */,
+				BC011AED18109A4D000F8286 /* MASPreferencesWindow.xib in Resources */,
+				BC0119CD18103CF0000F8286 /* Credits.rtf in Resources */,
+				BC011AEF18109A4D000F8286 /* README.md in Resources */,
+				BC0119D318103CF0000F8286 /* MainMenu.xib in Resources */,
+				BC011A2018104DC0000F8286 /* Angry.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0119D818103CF0000F8286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0119E518103CF0000F8286 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC0119B518103CF0000F8286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC011AF318109AF6000F8286 /* GeneralPreferencesViewController.m in Sources */,
+				BC011AEE18109A4D000F8286 /* MASPreferencesWindowController.m in Sources */,
+				BC011AD61810789F000F8286 /* DFSSHConnectionType.m in Sources */,
+				BC011AE318107B87000F8286 /* DeviceManager.m in Sources */,
+				BC0119D018103CF0000F8286 /* AppDelegate.m in Sources */,
+				BC011AFB1810B5E5000F8286 /* AppManager.m in Sources */,
+				BC011A17181043AF000F8286 /* MasterViewController.m in Sources */,
+				BC011AD91810789F000F8286 /* DFSSHServer.m in Sources */,
+				BC0119C918103CF0000F8286 /* main.m in Sources */,
+				BC011A1B181045BD000F8286 /* AppModel.m in Sources */,
+				BC011AD81810789F000F8286 /* DFSSHOperator.m in Sources */,
+				BC011AD71810789F000F8286 /* DFSSHConnector.m in Sources */,
+				BC011A1E18104A49000F8286 /* AppDoc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0119D618103CF0000F8286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC0119E718103CF0000F8286 /* BrakeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC0119DF18103CF0000F8286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC0119B818103CF0000F8286 /* Brake */;
+			targetProxy = BC0119DE18103CF0000F8286 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC0119C518103CF0000F8286 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0119C618103CF0000F8286 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC0119CB18103CF0000F8286 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0119CC18103CF0000F8286 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BC0119D118103CF0000F8286 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0119D218103CF0000F8286 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BC0119E318103CF0000F8286 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC0119E418103CF0000F8286 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC0119E818103CF0000F8286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC0119E918103CF0000F8286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC0119EB18103CF0000F8286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brake/Brake-Prefix.pch";
+				INFOPLIST_FILE = "Brake/Brake-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Ninja/Desktop/Projects/Brake-for-Mac/Brake/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC0119EC18103CF0000F8286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brake/Brake-Prefix.pch";
+				INFOPLIST_FILE = "Brake/Brake-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Ninja/Desktop/Projects/Brake-for-Mac/Brake/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC0119EE18103CF0000F8286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Brake.app/Contents/MacOS/Brake";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brake/Brake-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BrakeTests/BrakeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC0119EF18103CF0000F8286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Brake.app/Contents/MacOS/Brake";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brake/Brake-Prefix.pch";
+				INFOPLIST_FILE = "BrakeTests/BrakeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC0119B418103CF0000F8286 /* Build configuration list for PBXProject "Brake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0119E818103CF0000F8286 /* Debug */,
+				BC0119E918103CF0000F8286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0119EA18103CF0000F8286 /* Build configuration list for PBXNativeTarget "Brake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0119EB18103CF0000F8286 /* Debug */,
+				BC0119EC18103CF0000F8286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0119ED18103CF0000F8286 /* Build configuration list for PBXNativeTarget "BrakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0119EE18103CF0000F8286 /* Debug */,
+				BC0119EF18103CF0000F8286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC0119B118103CF0000F8286 /* Project object */;
+}
